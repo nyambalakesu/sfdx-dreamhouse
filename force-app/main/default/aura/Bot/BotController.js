@@ -16,6 +16,7 @@
                 component.set("v.messages", messages);
             }
         });
+        console.log('My changes');
 	},
     
     postbackButtonClickHandler : function(component, event, helper) {
