@@ -1,8 +1,8 @@
 #!groovy
+def SFDX_USE_GENERIC_UNIX_KEYCHAIN = true
 import groovy.json.JsonSlurperClassic
 node {
 
-    def SFDX_USE_GENERIC_UNIX_KEYCHAIN = true
     def BUILD_NUMBER=env.BUILD_NUMBER
     def RUN_ARTIFACT_DIR="tests/${BUILD_NUMBER}"
     def SFDC_USERNAME
